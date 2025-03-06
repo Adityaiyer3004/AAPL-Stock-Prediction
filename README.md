@@ -72,6 +72,7 @@ Copy
 Edit
 git clone https://github.com/Adityaiyer3004/AAPL-Stock-Prediction.git
 cd AAPL-Stock-Prediction
+
 🔹 2. Install Dependencies
 Ensure you have Python 3.8+ installed, then run:
 
