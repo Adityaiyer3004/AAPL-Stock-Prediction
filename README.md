@@ -5,13 +5,15 @@ LSTM-based stock price prediction for Apple (AAPL), featuring EDA, trend analysi
 
 This project implements an LSTM-based model to predict Apple (AAPL) stock prices, using historical data analysis, deep learning forecasting, and AI-generated financial insights.
 
-✅ Key Features
+**✅ Key Features**
+
 🔹 Exploratory Data Analysis (EDA) – Stock trends, moving averages, return distributions, and risk assessment.
 🔹 LSTM-Based Prediction Model – Uses deep learning for forecasting Apple’s stock price.
 🔹 AI-Powered Financial Reports – GPT-4 generates structured insights on predictions vs. actual trends.
 🔹 Well-Structured Repository – Organized folders for data, notebooks, models, and reports.
 
-📂 Project Structure
+**📂 Project Structure**
+
 graphql
 Copy
 Edit
@@ -27,17 +29,20 @@ AAPL-Stock-Prediction/
 📊 Exploratory Data Analysis (EDA)
 Before training the LSTM model, EDA was performed to uncover key insights:
 
-🔹 Key Plots & Insights
+**🔹 Key Plots & Insights**
+
 📌 Stock Trends Over Time – Closing price analysis for trend detection.
 📌 Moving Averages – 10-day, 20-day, and 50-day moving averages for trend smoothing.
 📌 Daily Return Distribution – Histograms showcasing stock volatility.
 📌 Stock Correlation Analysis – Heatmaps & scatter plots showing stock relationships.
 📌 Risk vs Expected Return – Bubble chart highlighting risk-reward tradeoffs.
 
-🤖 LSTM-Based Stock Price Prediction
+**🤖 LSTM-Based Stock Price Prediction**
+
 A Bidirectional LSTM model was trained using Apple's historical stock data.
 
-🔹 Model Training Steps
+**🔹 Model Training Steps**
+
 1️⃣ Data Preprocessing – MinMaxScaler applied to closing prices.
 2️⃣ Feature Engineering – Created 100-day input sequences for prediction.
 3️⃣ LSTM Model Architecture –
@@ -52,13 +57,15 @@ RMSE: 4.86, ensuring reliable forecasting.
 📜 AI-Generated Financial Insights (GPT-4)
 A GPT-4 powered report generator analyzes historical vs. forecasted stock prices, producing AI-driven insights.
 
-🔹 AI Report Covers
+**🔹 AI Report Covers**
+
 ✅ Trend Analysis – Market momentum, stability, and volatility.
 ✅ Prediction Accuracy – Differences between actual & predicted prices.
 ✅ Risk Factors – Discusses economic & market conditions affecting the stock.
 ✅ Investment Insights – AI-generated strategies based on forecast data.
 
-⚡ How to Run the Project
+**⚡ How to Run the Project**
+
 🔹 1. Clone the Repository
 bash
 Copy
@@ -96,7 +103,7 @@ cat reports/ai_report.md
 🔹 Sentiment Analysis – NLP analysis of news & social media impact.
 🔹 Explainable AI – Use SHAP for model interpretability.
 
-📝 License
+**📝 License**
 This project is licensed under the MIT License.
 
 👨‍💻 Developed by Aditya Iyer
