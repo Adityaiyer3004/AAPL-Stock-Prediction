@@ -2,6 +2,7 @@
 LSTM-based stock price prediction for Apple (AAPL), featuring EDA, trend analysis, and AI-generated financial insights using GPT-4.
 
 **🏆 AAPL Stock Price Prediction**
+
 This project implements an LSTM-based model to predict Apple (AAPL) stock prices, using historical data analysis, deep learning forecasting, and AI-generated financial insights.
 
 ✅ Key Features
