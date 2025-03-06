@@ -44,15 +44,19 @@ A Bidirectional LSTM model was trained using Apple's historical stock data.
 **🔹 Model Training Steps**
 
 1️⃣ Data Preprocessing – MinMaxScaler applied to closing prices.
+
 2️⃣ Feature Engineering – Created 100-day input sequences for prediction.
+
 3️⃣ LSTM Model Architecture –
 
 Bidirectional LSTM layers with dropout & regularization.
 Dense layers with ReLU activation.
 Adam optimizer with Mean Squared Error (MSE).
+
 4️⃣ Training Optimization –
 Early Stopping & Learning Rate Reduction applied.
 RMSE: 4.86, ensuring reliable forecasting.
+
 5️⃣ Prediction & Visualization – Compared actual vs. predicted prices.
 📜 AI-Generated Financial Insights (GPT-4)
 A GPT-4 powered report generator analyzes historical vs. forecasted stock prices, producing AI-driven insights.
@@ -93,6 +97,7 @@ notebooks/01_EDA.ipynb → Exploratory Data Analysis
 notebooks/02_LSTM_Training.ipynb → Model Training
 notebooks/03_AAPL_LSTM_Prediction.ipynb → Forecasting
 notebooks/04_LLM_Report_Generation.ipynb → AI-Generated Insights
+
 🔹 4. View AI-Generated Reports
 Reports are saved inside the reports/ directory:
 
@@ -100,7 +105,8 @@ bash
 Copy
 Edit
 cat reports/ai_report.md
-🚀 Future Work
+
+**🚀 Future Work**
 🔹 Real-time Stock Prediction – Integrate live market data.
 🔹 Portfolio Optimization – ML-driven investment strategies.
 🔹 Sentiment Analysis – NLP analysis of news & social media impact.
