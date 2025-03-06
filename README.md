@@ -79,7 +79,9 @@ bash
 Copy
 Edit
 pip install -r requirements.txt
+
 🔹 3. Run Jupyter Notebooks
+
 Launch Jupyter and execute the notebooks step by step:
 
 bash
