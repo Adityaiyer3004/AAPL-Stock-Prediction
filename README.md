@@ -15,28 +15,23 @@ This project implements an LSTM-based model to predict Apple (AAPL) stock prices
 
 🔹 Well-Structured Repository – Organized folders for data, notebooks, models, and reports.
 
-**📂 Project Structure**
+## 📂 Project Structure
 
-graphql
-Copy
-Edit
+- **`data/`** 📊 - Contains raw & processed stock market data.
+  
+- **`notebooks/`** 📓 - Jupyter notebooks for EDA, model training, & predictions.
+  
+- **`models/`** 🤖 - Saved LSTM model & scaler for inference.
+  
+- **`reports/`** 📑 - AI-generated financial insights & visualizations.
+  
+- **`src/`** 🖥️ - Python scripts for data processing & model training.
+  
+- **`README.md`** 📘 - Project documentation.
 
-AAPL-Stock-Prediction/
-│── data/             # Raw & processed stock market data
+- **`requirements.txt`** 📦 - Dependencies for running the project.
 
-│── notebooks/        # Jupyter notebooks for EDA, model training & predictions
-
-│── models/           # Saved LSTM model & scaler for inference
-
-│── reports/          # AI-generated financial insights & visualizations
-
-│── src/              # Python scripts for data processing & model training
-
-│── README.md         # Project documentation
-
-│── requirements.txt  # Dependencies for running the project
-
-│── LICENSE           # MIT License
+- **`LICENSE`** ⚖️ - MIT License.
 
 **📊 Exploratory Data Analysis (EDA)**
 
