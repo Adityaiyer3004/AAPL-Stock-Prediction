@@ -8,8 +8,11 @@ This project implements an LSTM-based model to predict Apple (AAPL) stock prices
 **✅ Key Features**
 
 🔹 Exploratory Data Analysis (EDA) – Stock trends, moving averages, return distributions, and risk assessment.
+
 🔹 LSTM-Based Prediction Model – Uses deep learning for forecasting Apple’s stock price.
+
 🔹 AI-Powered Financial Reports – GPT-4 generates structured insights on predictions vs. actual trends.
+
 🔹 Well-Structured Repository – Organized folders for data, notebooks, models, and reports.
 
 **📂 Project Structure**
@@ -17,6 +20,7 @@ This project implements an LSTM-based model to predict Apple (AAPL) stock prices
 graphql
 Copy
 Edit
+
 AAPL-Stock-Prediction/
 │── data/             # Raw & processed stock market data
 │── notebooks/        # Jupyter notebooks for EDA, model training & predictions
@@ -26,7 +30,9 @@ AAPL-Stock-Prediction/
 │── README.md         # Project documentation
 │── requirements.txt  # Dependencies for running the project
 │── LICENSE           # MIT License
-📊 Exploratory Data Analysis (EDA)
+
+**📊 Exploratory Data Analysis (EDA)**
+
 Before training the LSTM model, EDA was performed to uncover key insights:
 
 **🔹 Key Plots & Insights**
@@ -99,6 +105,7 @@ notebooks/03_AAPL_LSTM_Prediction.ipynb → Forecasting
 notebooks/04_LLM_Report_Generation.ipynb → AI-Generated Insights
 
 🔹 4. View AI-Generated Reports
+
 Reports are saved inside the reports/ directory:
 
 bash
@@ -107,12 +114,17 @@ Edit
 cat reports/ai_report.md
 
 **🚀 Future Work**
+
 🔹 Real-time Stock Prediction – Integrate live market data.
+
 🔹 Portfolio Optimization – ML-driven investment strategies.
+
 🔹 Sentiment Analysis – NLP analysis of news & social media impact.
+
 🔹 Explainable AI – Use SHAP for model interpretability.
 
 **📝 License**
+
 This project is licensed under the MIT License.
 
 👨‍💻 Developed by Aditya Iyer
