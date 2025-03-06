@@ -24,12 +24,8 @@ This project implements an LSTM-based model to predict Apple (AAPL) stock prices
 - **`models/`** 🤖 - Saved LSTM model & scaler for inference.
   
 - **`reports/`** 📑 - AI-generated financial insights & visualizations.
-  
-- **`src/`** 🖥️ - Python scripts for data processing & model training.
-  
-- **`README.md`** 📘 - Project documentation.
 
-- **`requirements.txt`** 📦 - Dependencies for running the project.
+- **`README.md`** 📘 - Project documentation.
 
 - **`LICENSE`** ⚖️ - MIT License.
 
