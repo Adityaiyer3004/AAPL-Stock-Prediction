@@ -23,12 +23,19 @@ Edit
 
 AAPL-Stock-Prediction/
 │── data/             # Raw & processed stock market data
+
 │── notebooks/        # Jupyter notebooks for EDA, model training & predictions
+
 │── models/           # Saved LSTM model & scaler for inference
+
 │── reports/          # AI-generated financial insights & visualizations
+
 │── src/              # Python scripts for data processing & model training
+
 │── README.md         # Project documentation
+
 │── requirements.txt  # Dependencies for running the project
+
 │── LICENSE           # MIT License
 
 **📊 Exploratory Data Analysis (EDA)**
